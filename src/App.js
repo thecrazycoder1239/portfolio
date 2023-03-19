@@ -1,24 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <h1>NC-Games</h1>
+    <p>my links for the backend</p>
+    <a href="https://github.com/thecrazycoder1239/NC-Games-BE">backend github link</a> <br></br>
+    <a href="https://my-board-game-database.onrender.com/api">hosted backend</a>
+    <br/>
+    <p>my links for the frontend</p>
+    <a href="https://github.com/thecrazycoder1239/NC-Games-FE">frontend github link</a> <br></br>
+    <a href="https://toms-nc-games.netlify.app/">hosted frontend</a>
+    </>
   );
 }
 
