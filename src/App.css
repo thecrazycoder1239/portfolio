@@ -1,3 +1,34 @@
 * {
-  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+#blob {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  top: 14rem;
+  z-index: -1;
+}
+
+body {
+	background: linear-gradient(to top, #8d99ae, #edf2f4);
+	height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav-container {
+  color: #2b2d42;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2rem;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.links {
+  position: absolute;
+  left: 50%;
+  top: 5rem;
 }
