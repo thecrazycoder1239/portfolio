@@ -1,10 +1,16 @@
 
+import githubLogo from "../assets/github.png"
+import linkedIn from "../assets/linkedIn.png"
+
 
 export default function Links () {
     return (
         <ol className="links">
             <li>
-                <img src="/github.png" alt="github"/>
+                <a href="https://github.com/thecrazycoder1239"><img className="github" src={githubLogo} alt="Github"/></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/thomas-barrett-profile/?original_referer="><img className="linkedIn" src={linkedIn} alt="Linked In"/></a>
             </li>
         </ol>
     )

@@ -28,7 +28,21 @@ body {
 }
 
 .links {
+  list-style-type: none;
+  display: flex;
   position: absolute;
-  left: 50%;
-  top: 5rem;
+  top: 22rem;
+}
+
+.github {
+  width: 6rem;
+  position: relative;
+  left: 75%;
+}
+
+.linkedIn {
+  width: 7rem;
+  position: relative;
+  left: 100%;
+  bottom: 0.85rem;
 }
