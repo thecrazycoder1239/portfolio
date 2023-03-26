@@ -1,19 +1,53 @@
 * {
   margin: 0;
   padding: 0;
+  color: white;
 }
 
 #blob {
   position: absolute;
-  left: 50%;
+  left: 26%;
   transform: translate(-50%, -50%);
-  width: 90%;
-  top: 14rem;
+  width: 33rem;
+  height: 33rem;
+  top: 45%;
   z-index: -1;
+  opacity: 0.9;
+}
+
+.purple {
+  background-color: #7209b7;
+  position: absolute;
+  width: 20rem;
+  height: 20rem;
+  left: 3%;
+  bottom: 12rem;
+  z-index: -5;
+}
+
+.blue {
+  background-color: #4361ee;
+  position: absolute;
+  width: 20rem;
+  height: 20rem;
+  left: 15%;
+  bottom: 23rem;
+  z-index: -4;
+}
+
+.title {
+ font-family: 'Sofia Sans', sans-serif;
+ font-size: 7rem;
+ position: absolute;
+ right: 3%;
+ top: 8rem;
+ background: linear-gradient(to left, #4cc9f0, #f72585);
+ background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 
 body {
-	background: linear-gradient(to top, #8d99ae, #edf2f4);
+	background: rgb(0, 0, 0);
 	height: 100vh;
   font-family: 'Roboto', sans-serif;
 }
@@ -23,26 +57,46 @@ body {
   list-style-type: none;
   display: flex;
   justify-content: space-around;
-  padding-top: 2rem;
-  font-family: 'Noto Sans', sans-serif;
+  padding-top: 3rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 1.7rem;
 }
 
-.links {
+.logos {
   list-style-type: none;
   display: flex;
-  position: absolute;
-  top: 22rem;
+  justify-content: space-around;
+  margin: 4rem;
+  width: 40%;
+  margin-left: 55.8%;
+  margin-top: 0rem;
+  z-index: 1;
 }
 
 .github {
   width: 6rem;
   position: relative;
-  left: 75%;
+  top: 495.5%;
 }
 
 .linkedIn {
   width: 7rem;
   position: relative;
-  left: 100%;
-  bottom: 0.85rem;
+  top: 480%;
+}
+
+.bio {
+  text-align: center;
+  position: relative;
+  top: 10rem;
+  font-size: 1.1rem;
+  margin-left: 53.5%;
+  background-color: #dcdcdc;
+  color: black;
+  width: 36.4%;
+  padding: 2rem;
+  border-radius: 1rem;
+  z-index: -1;
+  padding-bottom: 5rem;
 }

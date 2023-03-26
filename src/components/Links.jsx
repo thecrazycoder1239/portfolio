@@ -5,12 +5,12 @@ import linkedIn from "../assets/linkedIn.png"
 
 export default function Links () {
     return (
-        <ol className="links">
+        <ol className="logos">
             <li>
-                <a href="https://github.com/thecrazycoder1239"><img className="github" src={githubLogo} alt="Github"/></a>
+                <a className="links" href="https://github.com/thecrazycoder1239"><img className="github" src={githubLogo} alt="Github"/></a>
             </li>
             <li>
-                <a href="https://www.linkedin.com/in/thomas-barrett-profile/?original_referer="><img className="linkedIn" src={linkedIn} alt="Linked In"/></a>
+                <a classname="links" href="https://www.linkedin.com/in/thomas-barrett-profile/?original_referer="><img className="linkedIn" src={linkedIn} alt="Linked In"/></a>
             </li>
         </ol>
     )
