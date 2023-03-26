@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './components/Header';
 import Links from './components/Links';
+import Projects from './components/projects';
 
 function App() {
   return (
@@ -11,8 +12,7 @@ function App() {
     <p className='bio'>Hello there! I am a junior full stack software developer. Thankyou for visiting my portfolio page, I hope you enjoy viewing my projects!</p>
     <div className='purple'></div>
     <div className='blue'></div>
-    <div></div>
-
+    <Projects/>
     {/* <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
     <h1>NC-Games</h1>
     <p>my links for the backend</p>

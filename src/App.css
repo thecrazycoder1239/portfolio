@@ -1,7 +1,19 @@
 * {
   margin: 0;
   padding: 0;
-  color: white;
+  color: #dcdcdc;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover, .link:active {
+  text-decoration: none;
+  scale: 1.1;
+  font-weight: 900;
+  text-decoration: overline;
+  transition: all 0.5s ease-out;
 }
 
 #blob {
@@ -10,7 +22,7 @@
   transform: translate(-50%, -50%);
   width: 33rem;
   height: 33rem;
-  top: 45%;
+  top: 50%;
   z-index: -1;
   opacity: 0.9;
 }
@@ -21,7 +33,7 @@
   width: 20rem;
   height: 20rem;
   left: 3%;
-  bottom: 12rem;
+  bottom: 8rem;
   z-index: -5;
 }
 
@@ -31,7 +43,7 @@
   width: 20rem;
   height: 20rem;
   left: 15%;
-  bottom: 23rem;
+  bottom: 20rem;
   z-index: -4;
 }
 
@@ -40,7 +52,7 @@
  font-size: 7rem;
  position: absolute;
  right: 3%;
- top: 8rem;
+ top: 10rem;
  background: linear-gradient(to left, #4cc9f0, #f72585);
  background-clip: text;
 -webkit-text-fill-color: transparent;
@@ -53,7 +65,6 @@ body {
 }
 
 .nav-container {
-  color: #2b2d42;
   list-style-type: none;
   display: flex;
   justify-content: space-around;
@@ -77,19 +88,27 @@ body {
 .github {
   width: 6rem;
   position: relative;
-  top: 495.5%;
+  top: 530.5%;
 }
 
 .linkedIn {
   width: 7rem;
   position: relative;
-  top: 480%;
+  top: 515%;
+}
+
+.github:hover,
+.github:active,
+.linkedIn:hover,
+.linkedIn:active {
+  scale: 1.2;
+  transition: all 0.5s ease-out;
 }
 
 .bio {
   text-align: center;
   position: relative;
-  top: 10rem;
+  top: 12rem;
   font-size: 1.1rem;
   margin-left: 53.5%;
   background-color: #dcdcdc;
@@ -99,4 +118,49 @@ body {
   border-radius: 1rem;
   z-index: -1;
   padding-bottom: 5rem;
+}
+
+#projects {
+  height: 45rem;
+  width: 100vw;
+  position: absolute;
+  top: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.NC-Games {
+  width: 85%;
+  background-color: #d92274de;
+  text-align: center;
+  margin: 1rem;
+}
+
+.NC-Games:hover {
+  scale: 1.05;
+  transition: all 0.5s ease-out;
+  box-shadow: -20px -20px #400a23;
+}
+
+.project-title {
+  font-size: 3rem;
+  color: #dcdcdc;
+  margin: 1rem;
+  text-align: left;
+  border-bottom: 0.5rem solid;
+  width: 15rem;
+}
+
+.pokemon {
+  width: 85%;
+  background-color: #4361ee;
+  text-align: center;
+  margin: 3rem;
+}
+
+.pokemon:hover {
+  scale: 1.05;
+  transition: all 0.5s ease-out;
+  box-shadow: 20px -20px #141c3f;
 }
