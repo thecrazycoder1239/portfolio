@@ -169,6 +169,7 @@ body {
 
 .project-discription {
   position: absolute;
+  top:0rem;
 }
 
 .project-features-list {
@@ -261,16 +262,16 @@ body {
 }
 
 @media only screen and (max-width: 870px) {
+
   #blob {
     position: absolute;
     left: 50%;
-    width: 24rem;
-    top: 43%;
+    width: 30rem;
+    top: 40%;
   }
 
   .nav-container {
-    font-size: 1rem;
-    top: 1rem;
+    font-size: 1.7rem;
   }
 
   .title {
@@ -278,35 +279,110 @@ body {
     text-align: center;
     left: 1rem;
     top: 25rem;
+    display: block;
+    margin-left: auto;
+    width: 100%;
+    right: 0%;
   }
 
   .purple {
-    position: relative;
-    width: 13rem;
+    width: 79%;
     height: 13rem;
-    left: 10%;
-    bottom: 13rem;
+    left: 5%;
+    bottom: 28rem;
   }
   
   .blue {
-    position: absolute;
-    width: 13rem;
+    width: 79%;
     height: 13rem;
-    left: 35%;
+    right: 5%;
     bottom: 21rem;
   }
 
   .bio {
-    right: 47%;
-    width: 70vw;
-    top: 20rem;
+    position: absolute;
+    right: 0rem;
+    width: 90%;
+    top: 34em;
+    padding: 0rem;
+    margin-right: 5%;
+    padding-top: 1rem;
+    padding-bottom: 4.5rem;
   }
 
   .title {
     width: 100vw;
-    top: 28rem;
-    text-align: left;
-    padding-left: 0.3rem;
+    top: 32.3rem;
+    text-align: center;
+  }
+
+  .github {
+    top: 681%
+  }
+
+  .linkedIn {
+    top: 665%
+  }
+
+  .logos {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0rem;
+    width: 100%;
+    margin-top: 0rem;
+  }
+
+  .project-title {
+    visibility: hidden;
+  }
+
+  .project-img {
+    width: 16rem;
+    height: 15rem;
+    right: 59%;
+  }
+
+  .project-img-2 {
+    visibility: hidden;
+  }
+
+  .NC-Games {
+    height: 18rem;
+    width: 60%;
+  }
+
+  .pokemon {
+    height: 18rem;
+    width: 60%;
+  }
+
+  #pokemon-img {
+    position: relative;
+    width: 16rem;
+    height: 15rem;
+    left: -59%;
+  }
+
+  .project-features-list {
+    visibility: hidden;
+  }
+
+  .project-description {
+    position: absolute;
+    top: 18rem;
+    left: 2rem;
+    font-size: 1.3rem;
+  }
+
+  .project-footer {
+    gap: 3rem;
+  }
+
+  .NC-Games:hover .project-description,
+  .pokemon:hover .project-description {
+    scale: 1.1;
+    transition: all 0.5s ease-out;
   }
 }
 
