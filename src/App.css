@@ -51,6 +51,7 @@
  font-family: 'Sofia Sans', sans-serif;
  font-size: 7rem;
  position: absolute;
+ width: 44%;
  right: 3%;
  top: 10rem;
  background: linear-gradient(to left, #4cc9f0, #f72585);
@@ -257,4 +258,97 @@ body {
   text-align: center;
   width: 75%;
   background-color: #d92274de;
+}
+
+@media only screen and (max-width: 870px) {
+  #blob {
+    position: absolute;
+    left: 50%;
+    width: 24rem;
+    top: 43%;
+  }
+
+  .nav-container {
+    font-size: 1rem;
+    top: 1rem;
+  }
+
+  .title {
+    font-size: 3rem;
+    text-align: center;
+    left: 1rem;
+    top: 25rem;
+  }
+
+  .purple {
+    position: relative;
+    width: 13rem;
+    height: 13rem;
+    left: 10%;
+    bottom: 13rem;
+  }
+  
+  .blue {
+    position: absolute;
+    width: 13rem;
+    height: 13rem;
+    left: 35%;
+    bottom: 21rem;
+  }
+
+  .bio {
+    right: 47%;
+    width: 70vw;
+    top: 20rem;
+  }
+
+  .title {
+    width: 100vw;
+    top: 28rem;
+    text-align: left;
+    padding-left: 0.3rem;
+  }
+}
+
+@media only screen and (min-width: 1220px) {
+
+  .purple {
+    width: 28rem;
+    left: 8%;
+  }
+  
+  .blue {
+    width: 28rem;
+  }
+
+  .title {
+    font-size: 9rem;
+  }
+
+  .bio {
+    top: 17rem;
+    font-size: 1.4rem;
+  }
+
+  .github {
+    top: 620.5%;
+  }
+  
+  .linkedIn {
+    top: 606%;
+  }
+
+  .project-description {
+    font-size: 1.2rem;
+  }
+
+  .project-features-list {
+    width: 150%;
+    font-size: 1.2rem;
+  }
+  
+  .project-footer {
+    font-size: 1rem;
+    gap: 1.5rem;
+  }
 }
