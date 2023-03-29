@@ -6,6 +6,7 @@ import Projects from './components/projects';
 function App() {
   return (
     <>
+    <p className='viewport-error'>My portfolio is currently not supported on mobile. <br/><br/> Please open on desktop!</p>
     <Header/>
     <Links/>
     <h1 className='title'>Thomas Barrett</h1>

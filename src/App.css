@@ -22,7 +22,7 @@
   transform: translate(-50%, -50%);
   width: 33rem;
   height: 33rem;
-  top: 50%;
+  top: 27rem;
   z-index: -1;
   opacity: 0.9;
 }
@@ -33,7 +33,7 @@
   width: 20rem;
   height: 20rem;
   left: 3%;
-  bottom: 8rem;
+  top: 21rem;
   z-index: -5;
 }
 
@@ -43,7 +43,7 @@
   width: 20rem;
   height: 20rem;
   left: 15%;
-  bottom: 20rem;
+  top: 12rem;
   z-index: -4;
 }
 
@@ -90,12 +90,14 @@ body {
   width: 6rem;
   position: relative;
   top: 530.5%;
+  left: 0.0001rem;
 }
 
 .linkedIn {
   width: 7rem;
   position: relative;
   top: 515%;
+  left: 0.0001rem;
 }
 
 .github:hover,
@@ -125,7 +127,7 @@ body {
   height: 76rem;
   width: 100vw;
   position: absolute;
-  top: 100vh;
+  top: 50rem;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -261,13 +263,37 @@ body {
   background-color: #d92274de;
 }
 
+.viewport-error {
+  position: absolute;
+  visibility: hidden;
+  background-color: #d92274de;
+  text-align: center;
+  top: 20rem;
+  width: 1vw;
+  padding: 2rem;
+  border: 0.4rem solid;
+  box-shadow: 0px 0px 5px #dcdcdc;
+
+}
+
+@media only screen and (max-width:480px ) {
+  * {
+    visibility: hidden;
+  }
+
+  .viewport-error {
+    width: 100vw;
+    visibility: visible;
+  }
+}
+
 @media only screen and (max-width: 870px) {
 
   #blob {
     position: absolute;
     left: 50%;
     width: 30rem;
-    top: 40%;
+    top: 20rem;
   }
 
   .nav-container {
@@ -278,7 +304,8 @@ body {
     font-size: 3rem;
     text-align: center;
     left: 1rem;
-    top: 25rem;
+    top: 32.8rem;
+
     display: block;
     margin-left: auto;
     width: 100%;
@@ -289,14 +316,14 @@ body {
     width: 79%;
     height: 13rem;
     left: 5%;
-    bottom: 28rem;
+    top: 18rem;
   }
   
   .blue {
     width: 79%;
     height: 13rem;
     right: 5%;
-    bottom: 21rem;
+    top: 9rem;
   }
 
   .bio {
@@ -310,18 +337,12 @@ body {
     padding-bottom: 4.5rem;
   }
 
-  .title {
-    width: 100vw;
-    top: 32.3rem;
-    text-align: center;
-  }
-
   .github {
-    top: 681%
+    top: 681%;
   }
 
   .linkedIn {
-    top: 665%
+    top: 665%;
   }
 
   .logos {
@@ -340,7 +361,15 @@ body {
   .project-img {
     width: 16rem;
     height: 15rem;
-    right: 59%;
+    bottom: 17rem;
+    right: 0.3rem;
+  }
+
+  #pokemon-img {
+    width: 16rem;
+    height: 15rem;
+    bottom: 13rem;
+    left: -0.3rem;
   }
 
   .project-img-2 {
@@ -357,13 +386,6 @@ body {
     width: 60%;
   }
 
-  #pokemon-img {
-    position: relative;
-    width: 16rem;
-    height: 15rem;
-    left: -59%;
-  }
-
   .project-features-list {
     visibility: hidden;
   }
@@ -377,6 +399,7 @@ body {
 
   .project-footer {
     gap: 3rem;
+    font-size: 0.65rem;
   }
 
   .NC-Games:hover .project-description,
@@ -384,6 +407,12 @@ body {
     scale: 1.1;
     transition: all 0.5s ease-out;
   }
+
+  .NC-Games,
+  .pokemon {
+    display: block
+  }
+
 }
 
 @media only screen and (min-width: 1220px) {
@@ -408,6 +437,7 @@ body {
 
   .github {
     top: 620.5%;
+    left: -3rem;
   }
   
   .linkedIn {
@@ -426,5 +456,30 @@ body {
   .project-footer {
     font-size: 1rem;
     gap: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 2277px) { 
+  .purple {
+    width: 28rem;
+    left: 17%;
+  }
+  
+  .blue {
+    width: 28rem;
+    left: 21%;
+  }
+
+  .title {
+    top: 20rem;
+  }
+
+  .github {
+    top: 601%;
+    left: -9rem;
+  }
+
+  .linkedIn {
+    top: 585%
   }
 }

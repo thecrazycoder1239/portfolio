@@ -6,7 +6,7 @@ export default function Projects () {
     return (
         <section id="projects">
             <div className="NC-Games">
-                <div>
+                <div className='div'>
                 <h2 className="project-title">NC-Games</h2>
                 <p className='project-description'> A board game reviews site!</p> 
                 <ol className='project-features-list'>
@@ -21,13 +21,13 @@ export default function Projects () {
                 <a className='link' href="https://toms-nc-games.netlify.app/">Hosted application</a>
                 </div>
                 </div>
-                <div>
+                <div className='div'>
                 <img className="project-img" src={NCGames} alt="NC-Games preview"></img>
                 <img className="project-img-2" src={NCGames2} alt="NC-Games preview"></img>
                 </div>     
             </div>
             <div className="pokemon">
-                <div>
+                <div className='div'>
                 <h2 className="project-title">Pokemon</h2>
                 <p className='project-description'> A Pokemon card generator!</p> 
                 <ol className='project-features-list'>
