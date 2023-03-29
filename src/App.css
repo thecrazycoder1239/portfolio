@@ -278,29 +278,13 @@ body {
 }
 
 @media only screen and (max-width:480px ) {
-  * {
-    margin:0rem;
-    width: 1rem;
-    visibility: hidden;
-    overflow: hidden;
-  }
-
-  .pokemon {
-    margin: 0rem;
-  }
-
-  .project-features-list {
-    width: 1rem;
-  }
-
+  .visible-content,
   #blob {
-    width: 5rem;
-    height: 5rem;
+    display: none;
   }
 
   .viewport-error {
-    width: 70%;
-    left: 0.6rem;
+    width: 80%;
     visibility: visible;
   }
 }

@@ -7,6 +7,7 @@ function App() {
   return (
     <>
     <p className='viewport-error'>My portfolio is currently not supported on mobile. <br/><br/> Please open on desktop!</p>
+    <div className='visible-content'>
     <Header/>
     <Links/>
     <h1 className='title'>Thomas Barrett</h1>
@@ -14,6 +15,7 @@ function App() {
     <div className='purple'></div>
     <div className='blue'></div>
     <Projects/>
+    </div>
     </>
   );
 }
