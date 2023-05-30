@@ -277,6 +277,46 @@ body {
 
 }
 
+.garden-buddy {
+  width: 75%;
+  background-color: #4361ee;
+  text-align: center;
+  position: relative;
+  margin: 1rem;
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem;
+  margin-bottom: 3rem;
+}
+
+
+
+.garden-buddy .project-title {
+  position: relative;
+  left: -1.5rem;
+}
+
+.garden-buddy:hover .project-title {
+  scale: 1.05;
+  transition: all 0.5s ease-out;
+  box-shadow: -10px -10px #141c3f;
+}
+
+.garden-buddy-video {
+  position: relative;
+  left: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border: 0.3rem solid;
+}
+
+.garden-buddy:hover .garden-buddy-video {
+  scale: 1.03;
+  transition: all 0.5s ease-out;
+  border: 0.4rem solid;
+  box-shadow: 0px 0px 5px #dcdcdc;
+}
+
 @media only screen and (max-width:480px ) {
   .visible-content,
   #blob {

@@ -5,6 +5,27 @@ import pokemon from '../assets/pokemon.png'
 export default function Projects () {
     return (
         <section id="projects">
+
+            <div className="garden-buddy">
+                <div className='div'>
+                <h2 className="project-title">Garden Buddy</h2>
+                <p className='project-description'> A Progressive Web App for gardeners!</p> 
+                <ol className='project-features-list'>
+                    <li>a collaboration with 4 other Northcoders</li> <br/>
+                    <li>push notifications when the app is downloaded</li> <br/>
+                    <li>pre-caching pages and offline access to tasks</li>
+                </ol>
+                <div className='project-footer'>
+                <a className='link' href="https://642d5ecadb12241ebc457ba0--garden-buddy-1.netlify.app/log-in">Hosted application</a>
+                </div>
+                </div>
+                <div className='div'>
+                {/* <video width="320" height="200" className="garden-buddy-video" controls>
+                    <source src={gardenBuddy} type="video/mp4"/>
+                </video> */}
+                </div>     
+            </div>
+
             <div className="NC-Games">
                 <div className='div'>
                 <h2 className="project-title">NC-Games</h2>
