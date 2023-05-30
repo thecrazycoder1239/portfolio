@@ -1,6 +1,8 @@
 import NCGames from '../assets/NC-Games.jpeg'
 import NCGames2 from '../assets/NC-Games-2.jpeg'
 import pokemon from '../assets/pokemon.png'
+import gardenBuddy from '../assets/garden-buddy.png'
+import gardenBuddy2 from '../assets/garden-buddy2.png'
 
 export default function Projects () {
     return (
@@ -13,16 +15,17 @@ export default function Projects () {
                 <ol className='project-features-list'>
                     <li>a collaboration with 4 other Northcoders</li> <br/>
                     <li>push notifications when the app is downloaded</li> <br/>
-                    <li>pre-caching pages and offline access to tasks</li>
+                    <li>pre-caching pages and offline access to tasks</li> <br/>
+                    <li>project presentation with a demo has been linked below</li>
                 </ol>
                 <div className='project-footer'>
+                <a className='link' href="https://www.youtube.com/watch?v=r__NMO-WUf4">Project presentation</a>
                 <a className='link' href="https://642d5ecadb12241ebc457ba0--garden-buddy-1.netlify.app/log-in">Hosted application</a>
                 </div>
                 </div>
                 <div className='div'>
-                {/* <video width="320" height="200" className="garden-buddy-video" controls>
-                    <source src={gardenBuddy} type="video/mp4"/>
-                </video> */}
+                <img className="garden-buddy-image" src={gardenBuddy} alt="Garden Buddy preview"></img>
+                <img className="garden-buddy-image2" src={gardenBuddy2} alt="Garden Buddy preview"></img>
                 </div>     
             </div>
 
